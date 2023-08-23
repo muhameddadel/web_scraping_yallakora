@@ -55,7 +55,7 @@ def main(url):
             if channel_element:
                 channel = channel_element.text.strip()
             else:
-                channel = "No channel information available"
+                channel = "لم تحدد"
             
             # Add match info to matches_details
             matches_details.append({"البطولة": championship_title, "الفريق الأول": team_a, "الفريق الثاني": team_b, 
